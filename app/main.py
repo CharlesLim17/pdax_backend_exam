@@ -27,4 +27,18 @@ if __name__ == "__main__":
 
     # Generate account statement
     statement = statement_controller.generate_account_statement(account_id=new_account.account_id)
-    print("\n"+statement)
+    print("\nAfter Deposit and Withdrawal Statement...\n"+statement)
+
+    """
+    Deposit Amount: 100.0
+    Withdrawal Amount: 50.0
+    
+    Expected Result/Output
+    
+    New Account : account_id=1 customer_id=1 account_number='ACCT-1' balance=0.0
+    
+    After Deposit and Withdrawal Statement...
+    Account Statement for Account ID: 1
+    Current Balance: 50.0
+    """
+
