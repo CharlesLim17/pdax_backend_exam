@@ -41,4 +41,3 @@ if __name__ == "__main__":
     Account Statement for Account ID: 1
     Current Balance: 50.0
     """
-
